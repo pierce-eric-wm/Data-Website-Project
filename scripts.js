@@ -1,3 +1,6 @@
+alert("Welcome to my site!");
+
+
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
 function drawChart() {
